@@ -1,0 +1,46 @@
+a:link {
+    text-decoration: underline;
+}
+#module-container {
+    margin-bottom: $defaultMarginBottom;
+    background-color: $courseBgColor;
+    padding: $modulePadding;
+}
+a.module-item-name {
+  color: #000;
+  text-decoration: none;
+}
+.module-item-name:hover {
+  text-decoration: underline;
+}
+.left-side {
+    float: left;
+}
+.right-side {
+    float: right;
+}
+#module-info {
+    padding-top: 20px;
+}
+.bottom-line {
+    padding-top: 25px;
+}
+.btn.btn-success.disable {
+    background-color: #959595;
+    border: 1px solid #ccc;
+}
+.module-title {
+    font-size: 150%;
+    color: $aticleTitleColor;
+    font-weight: bold;
+}
+.resource-title {
+    font-size: 120%;
+    list-style-type: none;
+}
+.colon-padding {
+    padding: $colonPadding;
+}
+.top-margin{
+    margin-top: $marginTop;
+}
